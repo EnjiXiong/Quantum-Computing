@@ -57,7 +57,7 @@ $$|\psi\rangle = cos\frac{\theta}{2}|0\rangle + e^{i\psi}sin\frac{\theta}{2}|1\r
 
 The numbers $\theta$ and $\psi$ define a point on the unit three-dimensional sphere.
 
-![](figures/1.2figure.png)
+![Figure 1](figures/1.2figure.png)
 
 3. Multiple Qubits
 
