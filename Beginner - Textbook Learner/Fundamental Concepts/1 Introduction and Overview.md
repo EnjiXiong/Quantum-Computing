@@ -79,6 +79,8 @@ $$|\psi'\rangle = \frac{\alpha_{00}|00\rangle + \alpha_{01}|01\rangle}{\sqrt{\al
 
 ***Bell State(EPR Pair)***
 
+The Bell's states are specific quantum states of two qubits that represent the simplest examples of quantum entanglement, a form of entangled and normalized basis vectors.
+
 $$\frac{|00\rangle + |11\rangle}{\sqrt{2}}$$
 
 Why is this important? Because the eventual result of two completely different quantum states is the identical, which is $\frac{1}{2}$.
