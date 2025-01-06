@@ -57,11 +57,33 @@ $$|\psi\rangle = cos\frac{\theta}{2}|0\rangle + e^{i\psi}sin\frac{\theta}{2}|1\r
 
 The numbers $\theta$ and $\psi$ define a point on the unit three-dimensional sphere.
 
-![](/assets/image/1.2figure.png)
+![](figures/1.2figure.png)
 
 3. Multiple Qubits
 
 If there's 2 qubits, (could only measure a subset of qubits)
+
+the quantum state is the linear combination of $|00\rangle$, $|01\rangle$, $|10\rangle$, $|11\rangle$:
+
+$$|\psi\rangle = \alpha_{00}|00\rangle + \alpha_{01}|01\rangle + \alpha_{10}|10\rangle + \alpha_{11}|11\rangle$$
+
+As we know, we can only measure a subset of qubits. For example, if we measure the first qubit is 0,
+
+$$|\psi'\rangle = \frac{\alpha_{00}|00\rangle + \alpha_{01}|01\rangle}{\sqrt{\alpha_{00}^2 + \alpha_{01}^2}}$$
+
+> Why do we get this refreshed formula?
+> ---
+> Firstly, the first qubit is 0, there're only $|00\rangle$ and $|01\rangle$ left.
+>
+> Secondly, re-normalize the coefficients $\alpha_{0x}$
+
+***Bell State(EPR Pair)***
+
+$$\frac{|00\rangle + |11\rangle}{\sqrt{2}}$$
+
+Why is this important? Because the eventual result of two completely different quantum states is the identical, which is $\frac{1}{2}$.
+
+It's called *correlated outcome*, which enables quantum information go far beyond the classical information.
 
 ### Quantum Computers Quantum Gates and Quantum Circuits
 
