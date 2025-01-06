@@ -57,7 +57,11 @@ $$|\psi\rangle = cos\frac{\theta}{2}|0\rangle + e^{i\psi}sin\frac{\theta}{2}|1\r
 
 The numbers $\theta$ and $\psi$ define a point on the unit three-dimensional sphere.
 
-![]()
+![](/assets/image/1.2figure.png)
+
+3. Multiple Qubits
+
+If there's 2 qubits, (could only measure a subset of qubits)
 
 ### Quantum Computers Quantum Gates and Quantum Circuits
 
